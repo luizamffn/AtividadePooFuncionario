@@ -14,18 +14,16 @@ public class TestaFuncionario {
 		
 		
 		Funcionario f1 = new Funcionario();    
-		f1.nome = "Danilo";
-		f1.salario = 100;
-		f1.departamento = "Contabilidade";
-		f1.dataDeEntrada.ano = 2012;
-		f1.dataDeEntrada.dia = 15;
-		f1.dataDeEntrada.mes = 02;
-		f1.estaNaEmpresa = true;
-		f1.RG = "3.565.671";
+		f1.setNome("Danilo");
+		f1.setSalario(100);
+		f1.setDepartamento("Contabilidade");
+		f1.getDataDeEntrada().receberData(34, 04, 2011);
+		f1.setEstaNaEmpresa(true);
+		f1.setRG("3.565.671");
 
 		Funcionario f2 = new Funcionario();    
-		f2.nome = "Danilo";
-		f2.salario = 100;
+		f2.setNome("Danilo");
+		f2.setSalario(100);
 		
 //		f1 = f2;
 
