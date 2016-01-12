@@ -1,4 +1,4 @@
-package br.ads.poo.Funcionario;
+package br.com.ifpi.funcionario;
 
 public class Funcionario {
 	
